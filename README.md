@@ -5,7 +5,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prathmesh0&label=Profile%20views&color=0e75b6&style=flat" alt="prathmesh0" /> </p>
 
-<p align="left"> <a href="https://twitter.com/prathmesh__1209" target="blank"><img src="https://img.shields.io/twitter/follow/prathmesh__1209?logo=twitter&style=for-the-badge" alt="prathmesh__1209" /></a> </p>
 
 - 🔭 I’m currently working on **InnerBalance- A Mental Wellness APP**
 
