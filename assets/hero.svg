@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Prathmesh Parab — Full Stack Engineer · React, Next.js, TypeScript, Node.js, AWS">
+<title>Prathmesh Parab — Full Stack Engineer</title>
+<style>
+@keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(90px,40px)}}
+@keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-110px,-30px)}}
+@keyframes drift3{0%,100%{transform:translate(0,0)}50%{transform:translate(60px,-50px)}}
+.b1{animation:drift1 14s ease-in-out infinite}.b2{animation:drift2 18s ease-in-out infinite}.b3{animation:drift3 16s ease-in-out infinite}
+@keyframes up{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+.u1{animation:up .9s ease-out both}.u2{animation:up .9s ease-out .25s both}.u3{animation:up .9s ease-out .5s both}.u4{animation:up .9s ease-out .75s both}
+@keyframes pulse{0%{transform:scale(1);opacity:1}70%,100%{transform:scale(2.8);opacity:0}}.ring{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}.fl{animation:float 6s ease-in-out infinite}
+@keyframes scan{from{transform:translateX(-300px)}to{transform:translateX(1500px)}}.scan{animation:scan 7s linear infinite}
+@keyframes c0{0%,3.33%{transform:translateX(0)}6.50%,100%{transform:translateX(66px)}}.c0{animation:c0 18.0s steps(6,end) infinite}@keyframes p0{0%,3.03%{opacity:0}3.33%,100%{opacity:1}}.p0{opacity:0;animation:p0 18.0s infinite}@keyframes o1{0%,8.44%{opacity:0;transform:translateY(6px)}9.83%,100%{opacity:1;transform:translateY(0)}}.o1{opacity:0;animation:o1 18.0s ease-out infinite}@keyframes c2{0%,10.94%{transform:translateX(0)}16.83%,100%{transform:translateX(129px)}}.c2{animation:c2 18.0s steps(13,end) infinite}@keyframes p2{0%,10.64%{opacity:0}10.94%,100%{opacity:1}}.p2{opacity:0;animation:p2 18.0s infinite}@keyframes o3{0%,18.78%{opacity:0;transform:translateY(6px)}20.17%,100%{opacity:1;transform:translateY(0)}}.o3{opacity:0;animation:o3 18.0s ease-out infinite}@keyframes o4{0%,21.28%{opacity:0;transform:translateY(6px)}22.67%,100%{opacity:1;transform:translateY(0)}}.o4{opacity:0;animation:o4 18.0s ease-out infinite}@keyframes c5{0%,23.78%{transform:translateX(0)}28.50%,100%{transform:translateX(102px)}}.c5{animation:c5 18.0s steps(10,end) infinite}@keyframes p5{0%,23.48%{opacity:0}23.78%,100%{opacity:1}}.p5{opacity:0;animation:p5 18.0s infinite}@keyframes o6{0%,30.44%{opacity:0;transform:translateY(6px)}31.83%,100%{opacity:1;transform:translateY(0)}}.o6{opacity:0;animation:o6 18.0s ease-out infinite}@keyframes pl{0%,32.94%{opacity:0}33.44%,100%{opacity:1}}.pl{opacity:0;animation:pl 18.0s infinite}@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.cur{animation:blink 1s steps(1) infinite}@keyframes fadeall{0%,93%{opacity:1}97%,100%{opacity:0}}.term{animation:fadeall 18.0s infinite}@keyframes role{0%{opacity:0;transform:translateY(14px)}4%,21%{opacity:1;transform:translateY(0)}25%,100%{opacity:0;transform:translateY(-14px)}}.r0{opacity:0;animation:role 12s ease-in-out 0s infinite}.r1{opacity:0;animation:role 12s ease-in-out 3s infinite}.r2{opacity:0;animation:role 12s ease-in-out 6s infinite}.r3{opacity:0;animation:role 12s ease-in-out 9s infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.cover,.cur{display:none}.rv{opacity:1!important}}
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#141a3a"/></linearGradient>
+  <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="640" y2="0" spreadMethod="reflect">
+    <stop offset="0" stop-color="#7c9cff"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1280 0" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#7c9cff"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+  <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#fff" opacity=".07"/></pattern>
+  <clipPath id="card"><rect width="1200" height="400" rx="26"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <g filter="url(#blur)" opacity=".55">
+    <circle class="b1" cx="180" cy="90" r="150" fill="#7c9cff"/>
+    <circle class="b2" cx="980" cy="320" r="170" fill="#f472b6" opacity=".7"/>
+    <circle class="b3" cx="620" cy="40" r="120" fill="#22d3ee" opacity=".6"/>
+  </g>
+  <rect width="1200" height="400" fill="url(#dots)"/>
+  <rect class="scan" x="0" y="0" width="260" height="400" fill="url(#sheen)" transform="skewX(-18)"/>
+
+  <text class="u1" x="66" y="110" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" letter-spacing="4" fill="#22d3ee">HELLO, WORLD — I'M</text>
+  <text class="u2" x="62" y="180" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="70" font-weight="800" letter-spacing="-1" fill="url(#name)">Prathmesh Parab</text>
+  <g class="u3"><text class="r0" x="66" y="236" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#e6edf3">Full Stack Engineer</text><text class="r1" x="66" y="236" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#e6edf3">React · Next.js · TypeScript</text><text class="r2" x="66" y="236" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#e6edf3">Node.js · MongoDB · AWS</text><text class="r3" x="66" y="236" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#e6edf3">Building AI-powered products</text></g>
+  <g class="u4">
+    <text x="66" y="282" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#8b949e">Mumbai, India  ·  2+ yrs experience  ·  AWS Certified SA – Associate</text>
+    <rect x="66" y="308" width="292" height="38" rx="19" fill="#3fb95018" stroke="#3fb95066"/>
+    <circle class="ring" cx="88" cy="327" r="5" fill="none" stroke="#3fb950" stroke-width="2"/>
+    <circle cx="88" cy="327" r="5" fill="#3fb950"/>
+    <text x="104" y="333" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#7ee787">Open to SDE / Full Stack roles</text>
+  </g>
+
+  <g class="fl">
+    <rect x="690" y="52" width="470" height="296" rx="16" fill="#0d1117" stroke="#30363d"/>
+    <rect x="690" y="52" width="470" height="296" rx="16" fill="none" stroke="url(#edge)" stroke-opacity=".55"/>
+    <circle cx="714" cy="76" r="6" fill="#ff5f57"/><circle cx="734" cy="76" r="6" fill="#febc2e"/><circle cx="754" cy="76" r="6" fill="#28c840"/>
+    <text x="925.0" y="81" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">~/prathmesh — zsh</text>
+    <line x1="690" y1="98" x2="1160" y2="98" stroke="#30363d"/>
+    <g class="term"><text class="rv p0" x="714" y="128" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f472b6">❯</text><text x="734" y="128" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e6edf3">whoami</text><rect class="cover c0" x="732" y="112" width="76" height="22" fill="#0d1117"/><text class="rv o1" x="734" y="158" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e6edf3">prathmesh-parab · full-stack engineer</text><text class="rv p2" x="714" y="188" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f472b6">❯</text><text x="734" y="188" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e6edf3">cat focus.txt</text><rect class="cover c2" x="732" y="172" width="139" height="22" fill="#0d1117"/><text class="rv o3" x="734" y="218" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#22d3ee">React · Next.js · TypeScript · Node.js</text><text class="rv o4" x="734" y="248" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#22d3ee">AI-powered apps · REST APIs · AWS</text><text class="rv p5" x="714" y="278" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f472b6">❯</text><text x="734" y="278" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e6edf3">git status</text><rect class="cover c5" x="732" y="262" width="112" height="22" fill="#0d1117"/><text class="rv o6" x="734" y="308" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#3fb950">✓ open to SDE / Full Stack roles</text><g class="rv pl"><text x="714" y="338" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f472b6">❯</text><rect class="cur" x="734" y="324" width="9" height="18" rx="1" fill="#22d3ee"/></g></g>
+  </g>
+</g>
+</svg>

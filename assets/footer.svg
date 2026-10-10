@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="1200" height="190" role="img" aria-label="Thanks for stopping by">
+<style>@keyframes s1{to{transform:translateX(-600px)}}@keyframes s2{to{transform:translateX(-600px)}}
+.w1{animation:s1 9s linear infinite}.w2{animation:s2 14s linear infinite}.w3{animation:s1 20s linear infinite}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}.t{animation:up 1.2s ease-out both}@media (prefers-reduced-motion: reduce){*{animation:none!important}.cover,.cur{display:none}.rv{opacity:1!important}}</style>
+<defs><linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#7c9cff"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<clipPath id="c"><rect width="1200" height="190" rx="26"/></clipPath></defs>
+<g clip-path="url(#c)">
+<path class="w3" d="M0 96 Q75.0 114 150.0 96 T300 96 Q375.0 78 450.0 96 T600 96 Q675.0 114 750.0 96 T900 96 Q975.0 78 1050.0 96 T1200 96 Q1275.0 114 1350.0 96 T1500 96 Q1575.0 78 1650.0 96 T1800 96 Q1875.0 114 1950.0 96 T2100 96 Q2175.0 78 2250.0 96 T2400 96 Q2475.0 114 2550.0 96 T2700 96 V190 H0 Z" fill="url(#a)" opacity=".18"/>
+<path class="w2" d="M0 116 Q75.0 102 150.0 116 T300 116 Q375.0 130 450.0 116 T600 116 Q675.0 102 750.0 116 T900 116 Q975.0 130 1050.0 116 T1200 116 Q1275.0 102 1350.0 116 T1500 116 Q1575.0 130 1650.0 116 T1800 116 Q1875.0 102 1950.0 116 T2100 116 Q2175.0 130 2250.0 116 T2400 116 Q2475.0 102 2550.0 116 T2700 116 V190 H0 Z" fill="url(#a)" opacity=".3"/>
+<path class="w1" d="M0 136 Q75.0 146 150.0 136 T300 136 Q375.0 126 450.0 136 T600 136 Q675.0 146 750.0 136 T900 136 Q975.0 126 1050.0 136 T1200 136 Q1275.0 146 1350.0 136 T1500 136 Q1575.0 126 1650.0 136 T1800 136 Q1875.0 146 1950.0 136 T2100 136 Q2175.0 126 2250.0 136 T2400 136 Q2475.0 146 2550.0 136 T2700 136 V190 H0 Z" fill="url(#a)" opacity=".85"/>
+</g>
+<text class="t" x="600.0" y="60" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="url(#a)">Thanks for stopping by — let’s build something great.</text>
+</svg>
