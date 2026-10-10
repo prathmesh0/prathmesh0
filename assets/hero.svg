@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Prathmesh Parab — Full Stack Engineer · React, Next.js, TypeScript, Node.js, AWS">
-<title>Prathmesh Parab — Full Stack Engineer</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Prathmesh Parab - Full Stack Engineer · React, Next.js, TypeScript, Node.js, AWS">
+<title>Prathmesh Parab - Full Stack Engineer</title>
 <style>
 @keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(90px,40px)}}
 @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-110px,-30px)}}
@@ -35,11 +35,11 @@
   <rect width="1200" height="400" fill="url(#dots)"/>
   <rect class="scan" x="0" y="0" width="260" height="400" fill="url(#sheen)" transform="skewX(-18)"/>
 
-  <text class="u1" x="66" y="110" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" letter-spacing="4" fill="#22d3ee">HELLO, WORLD — I'M</text>
+  <text class="u1" x="66" y="110" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" letter-spacing="4" fill="#22d3ee">HELLO, WORLD - I'M</text>
   <text class="u2" x="62" y="180" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="70" font-weight="800" letter-spacing="-1" fill="url(#name)">Prathmesh Parab</text>
   <g class="u3"><text class="r0" x="66" y="236" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#e6edf3">Full Stack Engineer</text><text class="r1" x="66" y="236" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#e6edf3">React · Next.js · TypeScript</text><text class="r2" x="66" y="236" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#e6edf3">Node.js · MongoDB · AWS</text><text class="r3" x="66" y="236" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#e6edf3">Building AI-powered products</text></g>
   <g class="u4">
-    <text x="66" y="282" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#8b949e">Mumbai, India  ·  2+ yrs experience  ·  AWS Certified SA – Associate</text>
+    <text x="66" y="282" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#8b949e">Mumbai, India  ·  2+ yrs experience  ·  AWS Certified SA - Associate</text>
     <rect x="66" y="308" width="292" height="38" rx="19" fill="#3fb95018" stroke="#3fb95066"/>
     <circle class="ring" cx="88" cy="327" r="5" fill="none" stroke="#3fb950" stroke-width="2"/>
     <circle cx="88" cy="327" r="5" fill="#3fb950"/>
@@ -50,7 +50,7 @@
     <rect x="690" y="52" width="470" height="296" rx="16" fill="#0d1117" stroke="#30363d"/>
     <rect x="690" y="52" width="470" height="296" rx="16" fill="none" stroke="url(#edge)" stroke-opacity=".55"/>
     <circle cx="714" cy="76" r="6" fill="#ff5f57"/><circle cx="734" cy="76" r="6" fill="#febc2e"/><circle cx="754" cy="76" r="6" fill="#28c840"/>
-    <text x="925.0" y="81" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">~/prathmesh — zsh</text>
+    <text x="925.0" y="81" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">~/prathmesh - zsh</text>
     <line x1="690" y1="98" x2="1160" y2="98" stroke="#30363d"/>
     <g class="term"><text class="rv p0" x="714" y="128" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f472b6">❯</text><text x="734" y="128" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e6edf3">whoami</text><rect class="cover c0" x="732" y="112" width="76" height="22" fill="#0d1117"/><text class="rv o1" x="734" y="158" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e6edf3">prathmesh-parab · full-stack engineer</text><text class="rv p2" x="714" y="188" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f472b6">❯</text><text x="734" y="188" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e6edf3">cat focus.txt</text><rect class="cover c2" x="732" y="172" width="139" height="22" fill="#0d1117"/><text class="rv o3" x="734" y="218" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#22d3ee">React · Next.js · TypeScript · Node.js</text><text class="rv o4" x="734" y="248" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#22d3ee">AI-powered apps · REST APIs · AWS</text><text class="rv p5" x="714" y="278" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f472b6">❯</text><text x="734" y="278" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e6edf3">git status</text><rect class="cover c5" x="732" y="262" width="112" height="22" fill="#0d1117"/><text class="rv o6" x="734" y="308" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#3fb950">✓ open to SDE / Full Stack roles</text><g class="rv pl"><text x="714" y="338" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f472b6">❯</text><rect class="cur" x="734" y="324" width="9" height="18" rx="1" fill="#22d3ee"/></g></g>
   </g>

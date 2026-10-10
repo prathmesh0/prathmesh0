@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 220" width="580" height="220" role="img" aria-label="DishDelight — Recipe app with browsable categories and community ratings.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 220" width="580" height="220" role="img" aria-label="DishDelight - Recipe app with browsable categories and community ratings.">
 <title>DishDelight</title>
 <style>
 @keyframes run{to{stroke-dashoffset:-1520}}.run{stroke-dasharray:180 1340;animation:run 6s linear infinite}

@@ -88,8 +88,8 @@ def hero():
         for i, r in enumerate(roles)
     )
 
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Prathmesh Parab — Full Stack Engineer · React, Next.js, TypeScript, Node.js, AWS">
-<title>Prathmesh Parab — Full Stack Engineer</title>
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Prathmesh Parab - Full Stack Engineer · React, Next.js, TypeScript, Node.js, AWS">
+<title>Prathmesh Parab - Full Stack Engineer</title>
 <style>
 @keyframes drift1{{0%,100%{{transform:translate(0,0)}}50%{{transform:translate(90px,40px)}}}}
 @keyframes drift2{{0%,100%{{transform:translate(0,0)}}50%{{transform:translate(-110px,-30px)}}}}
@@ -125,11 +125,11 @@ def hero():
   <rect width="{W}" height="{H}" fill="url(#dots)"/>
   <rect class="scan" x="0" y="0" width="260" height="{H}" fill="url(#sheen)" transform="skewX(-18)"/>
 
-  <text class="u1" x="66" y="110" font-family="{MONO}" font-size="16" letter-spacing="4" fill="{CYAN}">HELLO, WORLD — I'M</text>
+  <text class="u1" x="66" y="110" font-family="{MONO}" font-size="16" letter-spacing="4" fill="{CYAN}">HELLO, WORLD - I'M</text>
   <text class="u2" x="62" y="180" font-family="{SANS}" font-size="70" font-weight="800" letter-spacing="-1" fill="url(#name)">Prathmesh Parab</text>
   <g class="u3">{role_svg}</g>
   <g class="u4">
-    <text x="66" y="282" font-family="{SANS}" font-size="17" fill="{MUTED}">Mumbai, India  ·  2+ yrs experience  ·  AWS Certified SA – Associate</text>
+    <text x="66" y="282" font-family="{SANS}" font-size="17" fill="{MUTED}">Mumbai, India  ·  2+ yrs experience  ·  AWS Certified SA - Associate</text>
     <rect x="66" y="308" width="292" height="38" rx="19" fill="#3fb95018" stroke="#3fb95066"/>
     <circle class="ring" cx="88" cy="327" r="5" fill="none" stroke="{GREEN}" stroke-width="2"/>
     <circle cx="88" cy="327" r="5" fill="{GREEN}"/>
@@ -140,7 +140,7 @@ def hero():
     <rect x="{tx}" y="{ty}" width="{tw}" height="{th}" rx="16" fill="{PANEL}" stroke="{LINE}"/>
     <rect x="{tx}" y="{ty}" width="{tw}" height="{th}" rx="16" fill="none" stroke="url(#edge)" stroke-opacity=".55"/>
     <circle cx="{tx+24}" cy="{ty+24}" r="6" fill="#ff5f57"/><circle cx="{tx+44}" cy="{ty+24}" r="6" fill="#febc2e"/><circle cx="{tx+64}" cy="{ty+24}" r="6" fill="#28c840"/>
-    <text x="{tx+tw/2}" y="{ty+29}" text-anchor="middle" font-family="{MONO}" font-size="13" fill="{MUTED}">~/prathmesh — zsh</text>
+    <text x="{tx+tw/2}" y="{ty+29}" text-anchor="middle" font-family="{MONO}" font-size="13" fill="{MUTED}">~/prathmesh - zsh</text>
     <line x1="{tx}" y1="{ty+46}" x2="{tx+tw}" y2="{ty+46}" stroke="{LINE}"/>
     <g class="term">{''.join(body)}</g>
   </g>
@@ -187,7 +187,7 @@ def card(slug, title, tag, desc_lines, metric, tech, accent, accent2, mono):
         f'<text x="32" y="{100 + len(desc_lines)*22 + 8}" font-family="{SANS}" font-size="15" font-weight="700" fill="{accent2}">{escape(metric)}</text>'
         if metric else ""
     )
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="{escape(title)} — {escape(' '.join(desc_lines))}">
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="{escape(title)} - {escape(' '.join(desc_lines))}">
 <title>{escape(title)}</title>
 <style>
 @keyframes run{{to{{stroke-dashoffset:-{per}}}}}.run{{stroke-dasharray:180 {per-180};animation:run 6s linear infinite}}
@@ -223,29 +223,29 @@ def card(slug, title, tag, desc_lines, metric, tech, accent, accent2, mono):
 
 def cards():
     card("repolens", "RepoLens", "LIVE",
-         ["AI repository assistant — embeds repo files and answers",
+         ["AI repository assistant - embeds repo files and answers",
           "questions with context-aware chat + visual file explorer."],
          "⚡ Up to 80% faster repo analysis",
          ["Next.js", "Node.js", "MongoDB", "Tailwind", "Shadcn UI"], INDIGO, CYAN, "R")
     card("innerbalance", "InnerBalance", None,
-         ["Mental-wellness mobile app — mood tracking, journaling,",
+         ["Mental-wellness mobile app - mood tracking, journaling,",
           "guided assessments and a chatbot for personal insights."],
          "⚡ 35% higher engagement in testing",
          ["Flutter", "Firebase", "SQL", "Chatbot"], CYAN, GREEN, "I")
     card("rbac", "RBAC Backend", "BACKEND",
-         ["Production-grade role-based access control API —",
+         ["Production-grade role-based access control API -",
           "roles, permissions and protected routes done right."],
          None, ["TypeScript", "Auth", "RBAC", "REST API"], PINK, INDIGO, "A")
     card("visitlume", "VisitLume AI", "PRIVATE",
-         ["AI-powered visitor intelligence for small businesses —",
+         ["AI-powered visitor intelligence for small businesses -",
           "lead capture, next-best-actions, revenue attribution."],
          None, ["AI", "Analytics", "Full Stack", "Attribution"], "#a78bfa", PINK, "V")
     card("simpliadmission", "SimpliAdmission", None,
-         ["Engineering college admission guide — colleges, details",
+         ["Engineering college admission guide - colleges, details",
           "and contact info in one place, with less stress."],
          None, ["Guide App", "Colleges", "Contacts"], "#fbbf24", PINK, "S")
     card("videostreaming", "Video Streaming Backend", "BACKEND",
-         ["Backend for a video streaming platform —",
+         ["Backend for a video streaming platform -",
           "uploads, auth and content APIs."],
          None, ["JavaScript", "Node.js", "REST API"], INDIGO, PINK, "V")
     card("dishdelight", "DishDelight", None,
@@ -256,13 +256,13 @@ def cards():
 
 # ------------------------------------------------------------------ about card
 def about():
-    W, H = 1200, 300
+    W, H = 1200, 270
     rows = [
         ("ROLE", "Full Stack Engineer @ Lauren Information Technologies", INDIGO),
         ("EXPERIENCE", "2+ years · 5+ enterprise apps for Indian & US clients", CYAN),
         ("FOCUS", "Frontend architecture · Full-stack products · AI-powered apps", PINK),
         ("STACK", "React · Next.js · TypeScript · Node.js · MongoDB · SQL · AWS", INDIGO),
-        ("CERTIFIED", "AWS Certified Solutions Architect – Associate", GREEN),
+        ("CERTIFIED", "AWS Certified Solutions Architect - Associate", GREEN),
         ("DSA", "500+ problems solved (TakeUForward + LeetCode)", CYAN),
         ("EDUCATION", "B.E. Computer Engineering · CGPA 8.93", PINK),
         ("LOOKING FOR", "SDE / Frontend / Full Stack roles with end-to-end ownership", GREEN),
@@ -270,7 +270,7 @@ def about():
     out = []
     for i, (k, v, col) in enumerate(rows):
         c, r = divmod(i, 4)
-        x, y = 40 + c * 580, 78 + r * 52
+        x, y = 40 + c * 580, 38 + r * 56
         out.append(
             f'<g><rect x="{x}" y="{y}" width="4" height="34" rx="2" fill="{col}"/>'
             f'<text x="{x+18}" y="{y+13}" font-family="{MONO}" font-size="11" font-weight="700" letter-spacing="1.8" fill="{col}">{k}</text>'
@@ -283,8 +283,32 @@ def about():
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{BG0}"/><stop offset="1" stop-color="{BG1}"/></linearGradient></defs>
 <rect x="2" y="2" width="{W-4}" height="{H-4}" rx="22" fill="url(#bg)" stroke="{LINE}" stroke-width="1.5"/>
 <rect class="run" x="2" y="2" width="{W-4}" height="{H-4}" rx="22" fill="none" stroke="url(#bd)" stroke-width="2.5" stroke-linecap="round"/>
-<text x="40" y="50" font-family="{MONO}" font-size="14" fill="{MUTED}">const <tspan fill="{PINK}">prathmesh</tspan> = {{</text>
-<line x1="600" y1="78" x2="600" y2="270" stroke="{LINE}"/>
+<line x1="600" y1="40" x2="600" y2="262" stroke="{LINE}"/>
+{"".join(out)}
+</svg>''')
+
+
+def impact():
+    W, H = 1200, 170
+    tiles = [
+        ("85%", "less manual operations", "Role-based financial automation", "platform · Next.js, TypeScript", INDIGO),
+        ("40%", "faster onboarding", "Project onboarding & approval", "tool for internal teams", CYAN),
+        ("30%", "better response & accuracy", "Flutter field app · Google Maps,", "offline sync, text-to-speech", PINK),
+        ("US", "large-scale platform", "Sprint features for a US transport", "platform · performance, a11y", GREEN),
+    ]
+    tw = (W - 48 - 3 * 16) / 4
+    out = []
+    for i, (big, lab, l1, l2, col) in enumerate(tiles):
+        x = 24 + i * (tw + 16)
+        out.append(
+            f'<rect x="{x:.0f}" y="20" width="{tw:.0f}" height="130" rx="16" fill="#0d1117" stroke="{col}55"/>'
+            f'<rect x="{x:.0f}" y="20" width="{tw:.0f}" height="130" rx="16" fill="{col}12"/>'
+            f'<text x="{x+22:.0f}" y="72" font-family="{SANS}" font-size="38" font-weight="800" fill="{col}">{big}</text>'
+            f'<text x="{x+22:.0f}" y="96" font-family="{SANS}" font-size="14" font-weight="700" fill="{TEXT}">{escape(lab)}</text>'
+            f'<text x="{x+22:.0f}" y="118" font-family="{SANS}" font-size="12.5" fill="{MUTED}">{escape(l1)}</text>'
+            f'<text x="{x+22:.0f}" y="135" font-family="{SANS}" font-size="12.5" fill="{MUTED}">{escape(l2)}</text>'
+        )
+    w(f"{OUT}/impact.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Impact at work: 85% less manual operations, 40% faster onboarding, 30% better response, US-scale platform">
 {"".join(out)}
 </svg>''')
 
@@ -321,9 +345,9 @@ def footer():
 <path class="w2" d="{wave(14, 116, 0)}" fill="url(#a)" opacity=".3"/>
 <path class="w1" d="{wave(10, 136, 1)}" fill="url(#a)" opacity=".85"/>
 </g>
-<text class="t" x="{W/2}" y="60" text-anchor="middle" font-family="{SANS}" font-size="26" font-weight="700" fill="url(#a)">Thanks for stopping by — let’s build something great.</text>
+<text class="t" x="{W/2}" y="60" text-anchor="middle" font-family="{SANS}" font-size="26" font-weight="700" fill="url(#a)">Thanks for stopping by - let’s build something great.</text>
 </svg>''')
 
 
-hero(); about(); cards(); divider(); footer()
+hero(); about(); impact(); cards(); divider(); footer()
 print("ok")
