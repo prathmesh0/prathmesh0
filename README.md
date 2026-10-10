@@ -1,43 +1,100 @@
-[![MasterHead](https://github.com/prathmesh0/git_profile/blob/main/git_banner.png?raw=true)]([https://rishavchanda.io](https://prathmeshparab-portfolio.netlify.app/))
-<h1 align="center">Hi 👋, I'm Prathmesh Parab</h1>
-<h3 align="center">A passionate software developer excelling in problem-solving and crafting innovative tech products.</h3>
-<img align="right" alt="Coding" width="400" src="https://github.com/prathmesh0/git_profile/blob/main/git_main_img.png?raw=true">
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=prathmesh0&label=Profile%20views&color=0e75b6&style=flat" alt="prathmesh0" /> </p>
-<p align="left"> <a href="https://twitter.com/prathmesh__1209" target="blank"><img src="https://img.shields.io/twitter/follow/prathmesh__1209?logo=twitter&style=for-the-badge" alt="prathmesh__1209" /></a> </p>
+<a href="https://prathmesh-parab-portfolio.vercel.app">
+  <img src="./assets/hero.svg" width="100%" alt="Prathmesh Parab — Full Stack Engineer · React, Next.js, TypeScript, Node.js, AWS" />
+</a>
 
-- 🔭 I’m currently working on **InnerBalance- A Mental Wellness APP**
+<br/>
 
-- 🌱 I’m currently learning **Python and also advanced concepts of app development and some backend technology as well.**
+<a href="https://prathmesh-parab-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0b1020?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+<a href="https://linkedin.com/in/prathmesh-parab-052a61219"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:prathmeshparab010@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://leetcode.com/prathmesh__1209"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
+<a href="https://medium.com/@Esh."><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
+<a href="https://twitter.com/prathmesh__1209"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
 
-- 👯 I’m looking to collaborate on **Flutter projects and to solve problems using the C++ programming language**
+<img src="https://komarev.com/ghpvc/?username=prathmesh0&label=profile%20views&color=7c9cff&style=flat-square" alt="profile views"/>
 
-- 👨‍💻 All of my projects are available at [https://prathmeshparab-portfolio.netlify.app/](https://prathmeshparab-portfolio.netlify.app/)
+</div>
 
-- 📝 I regularly write articles on [https://medium.com/@Esh12](https://medium.com/@Esh12)
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
-- 💬 Ask me about **C++, Flutter**
+## 🧑‍💻 About me
 
-- 📫 How to reach me **prathmeshparab010@gmail.com**
+<div align="center">
+<img src="./assets/about.svg" width="100%" alt="About Prathmesh Parab"/>
+</div>
 
-- 📄 Know about my experiences [https://drive.google.com/drive/u/0/folders/1xPMaAQ77g2_IapqVtSltYF5O1UdC_dbZ](https://drive.google.com/drive/u/0/folders/1xPMaAQ77g2_IapqVtSltYF5O1UdC_dbZ)
+<br/>
 
-- ⚡ Fun fact **When I'm active, I'm coding; in my passive mode, I'm the wizard 🧙‍♂️ concocting complex systems. Whether I'm a 0 or a 1, I'm always deep in the tech vortex!**
+<table>
+<tr>
+<td align="center" width="25%"><h2>85%</h2><b>less manual ops</b><br/><sub>Role-based financial automation platform<br/>Next.js · TypeScript · Shadcn UI</sub></td>
+<td align="center" width="25%"><h2>40%</h2><b>faster onboarding</b><br/><sub>Project onboarding &amp; approval tool</sub></td>
+<td align="center" width="25%"><h2>30%</h2><b>better response</b><br/><sub>Flutter field app · Google Maps,<br/>offline sync, text-to-speech</sub></td>
+<td align="center" width="25%"><h2>🇺🇸</h2><b>US-scale platform</b><br/><sub>Sprint features for a large transportation platform · performance &amp; accessibility</sub></td>
+</tr>
+</table>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/prathmesh__1209" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="prathmesh__1209" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/prathmesh-parab-052a61219/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="prathmesh-parab-052a61219/" height="30" width="40" /></a>
-<a href="https://medium.com/@esh12" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@esh12" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/prathmesh__1209" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="prathmesh__1209" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/user/prathmeshparab12o" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="user/prathmeshparab12o" height="30" width="40" /></a>
-</p>
+**Right now**
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+- 🔨 Building **VisitLume AI** — AI-powered visitor intelligence: behaviour analytics, lead capture and revenue attribution
+- 📚 Going deeper on **Redis, auth/RBAC and backend architecture**
+- 🤝 **Open to SDE / Full Stack roles** — referrals and chats welcome
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=prathmesh0&show_icons=true&locale=en&layout=compact" alt="prathmesh0" /></p>
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=prathmesh0&show_icons=true&locale=en" alt="prathmesh0" /></p>
+## 🛠️ Tech stack
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=prathmesh0&" alt="prathmesh0" /></p>
+<div align="center">
+
+<b>Frontend</b><br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,html,css&perline=10" alt="Frontend"/>
+
+<b>Backend & data</b><br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,redis,firebase,py&perline=10" alt="Backend and data"/>
+
+<b>Cloud, mobile & tooling</b><br/>
+<img src="https://skillicons.dev/icons?i=aws,docker,vercel,flutter,dart,git,postman,jest,figma,cpp&perline=10" alt="Cloud, mobile and tooling"/>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+## 🚀 Featured projects
+
+<div align="center">
+
+<a href="https://github.com/prathmesh0/repolens-frontend"><img src="./assets/projects/repolens.svg" width="49%" alt="RepoLens — AI repository assistant"/></a>
+<img src="./assets/projects/innerbalance.svg" width="49%" alt="InnerBalance — mental wellness app"/>
+<a href="https://github.com/prathmesh0/rbac-be"><img src="./assets/projects/rbac.svg" width="49%" alt="RBAC Backend — role-based access control API"/></a>
+<a href="https://github.com/prathmesh0/visitlume"><img src="./assets/projects/visitlume.svg" width="49%" alt="VisitLume AI — AI-powered website visitor intelligence"/></a>
+<a href="https://github.com/prathmesh0/SimpliAdmission"><img src="./assets/projects/simpliadmission.svg" width="49%" alt="SimpliAdmission — admission management"/></a>
+<a href="https://github.com/prathmesh0/video-streaming-backend"><img src="./assets/projects/videostreaming.svg" width="49%" alt="Video Streaming Backend"/></a>
+<a href="https://github.com/prathmesh0/DishDelight"><img src="./assets/projects/dishdelight.svg" width="49%" alt="DishDelight — Flutter recipe app"/></a>
+
+<sub>
+🔗 Live: <a href="https://repolens-frontend.vercel.app">RepoLens</a> · 🔒 VisitLume is private
+</sub>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+## 📊 GitHub at a glance
+
+<div align="center">
+
+<img src="./profile/stats.svg" width="100%" alt="GitHub stats: contributions, current and longest streak, activity heatmap, top languages"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<b>🏆 Highlights</b> &nbsp;·&nbsp; AWS Certified Solutions Architect – Associate &nbsp;·&nbsp; Best Project Award, Projectathon 2.0 &nbsp;·&nbsp; 500+ DSA problems
+
+<img src="./assets/footer.svg" width="100%" alt="Thanks for stopping by — let's build something great."/>
+
+</div>
