@@ -3,11 +3,11 @@ import os
 from xml.sax.saxutils import escape
 
 OUT = os.path.dirname(os.path.abspath(__file__))
-SANS = "'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif"
-MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace"
+SANS = "Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif"
+MONO = "'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace"
 
-INDIGO, CYAN, PINK, GREEN = "#7c9cff", "#22d3ee", "#f472b6", "#3fb950"
-BG0, BG1, PANEL, LINE, MUTED, TEXT = "#0b1020", "#141a3a", "#0d1117", "#30363d", "#8b949e", "#e6edf3"
+PRIMARY, SKY, AMBER, GREEN = "#f97316", "#0ea5e9", "#eab308", "#3fb950"
+BG0, BG1, PANEL, LINE, MUTED, TEXT = "#1c1917", "#292524", "#1c1917", "#44403c", "#a8a29e", "#f5f5f4"
 
 REDUCED = """@media (prefers-reduced-motion: reduce){*{animation:none!important}.cover,.cur{display:none}.rv{opacity:1!important}}"""
 
@@ -26,8 +26,8 @@ def hero():
         ("cmd", "whoami", None),
         ("out", "prathmesh-parab · full-stack engineer", TEXT),
         ("cmd", "cat focus.txt", None),
-        ("out", "React · Next.js · TypeScript · Node.js", CYAN),
-        ("out", "AI-powered apps · REST APIs · AWS", CYAN),
+        ("out", "React · Next.js · TypeScript · Node.js", SKY),
+        ("out", "AI-powered apps · REST APIs · AWS", SKY),
         ("cmd", "git status", None),
         ("out", "✓ open to SDE / Full Stack roles", GREEN),
     ]
@@ -47,7 +47,7 @@ def hero():
                 f"@keyframes p{i}{{0%,{max(a-0.3,0):.2f}%{{opacity:0}}{a:.2f}%,100%{{opacity:1}}}}.p{i}{{opacity:0;animation:p{i} {T}s infinite}}"
             )
             body.append(
-                f'<text class="rv p{i}" x="{tx+24}" y="{y}" font-family="{MONO}" font-size="15" fill="{PINK}">❯</text>'
+                f'<text class="rv p{i}" x="{tx+24}" y="{y}" font-family="{MONO}" font-size="15" fill="{AMBER}">❯</text>'
                 f'<text x="{tx+44}" y="{y}" font-family="{MONO}" font-size="15" fill="{TEXT}">{escape(text)}</text>'
                 f'<rect class="cover c{i}" x="{tx+42}" y="{y-16}" width="{tw_px+10:.0f}" height="22" fill="{PANEL}"/>'
             )
@@ -70,8 +70,8 @@ def hero():
         "@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.cur{animation:blink 1s steps(1) infinite}"
     )
     body.append(
-        f'<g class="rv pl"><text x="{tx+24}" y="{yl}" font-family="{MONO}" font-size="15" fill="{PINK}">❯</text>'
-        f'<rect class="cur" x="{tx+44}" y="{yl-14}" width="9" height="18" rx="1" fill="{CYAN}"/></g>'
+        f'<g class="rv pl"><text x="{tx+24}" y="{yl}" font-family="{MONO}" font-size="15" fill="{AMBER}">❯</text>'
+        f'<rect class="cur" x="{tx+44}" y="{yl-14}" width="9" height="18" rx="1" fill="{SKY}"/></g>'
     )
     css.append(
         f"@keyframes fadeall{{0%,93%{{opacity:1}}97%,100%{{opacity:0}}}}.term{{animation:fadeall {T}s infinite}}"
@@ -106,10 +106,10 @@ def hero():
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{BG0}"/><stop offset="1" stop-color="{BG1}"/></linearGradient>
   <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="640" y2="0" spreadMethod="reflect">
-    <stop offset="0" stop-color="{INDIGO}"/><stop offset=".5" stop-color="{CYAN}"/><stop offset="1" stop-color="{PINK}"/>
+    <stop offset="0" stop-color="{PRIMARY}"/><stop offset=".5" stop-color="{SKY}"/><stop offset="1" stop-color="{AMBER}"/>
     <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1280 0" dur="8s" repeatCount="indefinite"/>
   </linearGradient>
-  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="{INDIGO}"/><stop offset=".5" stop-color="{CYAN}"/><stop offset="1" stop-color="{PINK}"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="{PRIMARY}"/><stop offset=".5" stop-color="{SKY}"/><stop offset="1" stop-color="{AMBER}"/></linearGradient>
   <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
   <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
   <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#fff" opacity=".07"/></pattern>
@@ -118,14 +118,14 @@ def hero():
 <g clip-path="url(#card)">
   <rect width="{W}" height="{H}" fill="url(#bg)"/>
   <g filter="url(#blur)" opacity=".55">
-    <circle class="b1" cx="180" cy="90" r="150" fill="{INDIGO}"/>
-    <circle class="b2" cx="980" cy="320" r="170" fill="{PINK}" opacity=".7"/>
-    <circle class="b3" cx="620" cy="40" r="120" fill="{CYAN}" opacity=".6"/>
+    <circle class="b1" cx="180" cy="90" r="150" fill="{PRIMARY}"/>
+    <circle class="b2" cx="980" cy="320" r="170" fill="{AMBER}" opacity=".7"/>
+    <circle class="b3" cx="620" cy="40" r="120" fill="{SKY}" opacity=".6"/>
   </g>
   <rect width="{W}" height="{H}" fill="url(#dots)"/>
   <rect class="scan" x="0" y="0" width="260" height="{H}" fill="url(#sheen)" transform="skewX(-18)"/>
 
-  <text class="u1" x="66" y="110" font-family="{MONO}" font-size="16" letter-spacing="4" fill="{CYAN}">HELLO, WORLD - I'M</text>
+  <text class="u1" x="66" y="110" font-family="{MONO}" font-size="16" letter-spacing="4" fill="{SKY}">HELLO, WORLD - I'M</text>
   <text class="u2" x="62" y="180" font-family="{SANS}" font-size="70" font-weight="800" letter-spacing="-1" fill="url(#name)">Prathmesh Parab</text>
   <g class="u3">{role_svg}</g>
   <g class="u4">
@@ -180,7 +180,7 @@ def card(slug, title, tag, desc_lines, metric, tech, accent, accent2, mono):
             f'<text x="{tx_ + (tw_ + (22 if live else 0))/2:.0f}" y="50" text-anchor="middle" font-family="{MONO}" font-size="12" font-weight="700" letter-spacing="1.5" fill="{col}">{tag}</text>'
         )
     desc = "".join(
-        f'<text x="32" y="{100 + i*22}" font-family="{SANS}" font-size="15" fill="#c9d1d9">{escape(l)}</text>'
+        f'<text x="32" y="{100 + i*22}" font-family="{SANS}" font-size="15" fill="#d6d3d1">{escape(l)}</text>'
         for i, l in enumerate(desc_lines)
     )
     metric_svg = (
@@ -198,7 +198,7 @@ def card(slug, title, tag, desc_lines, metric, tech, accent, accent2, mono):
 </style>
 <defs>
   <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{accent}"/><stop offset="1" stop-color="{accent2}"/></linearGradient>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#111733"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1917"/><stop offset="1" stop-color="#292524"/></linearGradient>
   <linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
   <radialGradient id="halo" cx=".9" cy="0" r=".9"><stop offset="0" stop-color="{accent}" stop-opacity=".35"/><stop offset="1" stop-color="{accent}" stop-opacity="0"/></radialGradient>
   <clipPath id="c"><rect x="2" y="2" width="{W-4}" height="{H-4}" rx="18"/></clipPath>
@@ -208,10 +208,10 @@ def card(slug, title, tag, desc_lines, metric, tech, accent, accent2, mono):
   <rect class="gl" width="{W}" height="{H}" fill="url(#halo)"/>
   <rect class="sw" x="0" y="0" width="140" height="{H}" fill="url(#sh)" transform="skewX(-20)"/>
 </g>
-<rect x="2" y="2" width="{W-4}" height="{H-4}" rx="18" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<rect x="2" y="2" width="{W-4}" height="{H-4}" rx="18" fill="none" stroke="#44403c" stroke-width="1.5"/>
 <rect class="run" x="2" y="2" width="{W-4}" height="{H-4}" rx="18" fill="none" stroke="url(#bd)" stroke-width="2.5" stroke-linecap="round"/>
 <rect x="28" y="28" width="38" height="38" rx="10" fill="url(#bd)"/>
-<text x="47" y="54" text-anchor="middle" font-family="{SANS}" font-size="18" font-weight="800" fill="#0b1020">{escape(mono)}</text>
+<text x="47" y="54" text-anchor="middle" font-family="{SANS}" font-size="18" font-weight="800" fill="#1c1917">{escape(mono)}</text>
 <text x="80" y="55" font-family="{SANS}" font-size="24" font-weight="800" fill="{TEXT}">{escape(title)}</text>
 {tag_svg}
 {desc}
@@ -226,45 +226,45 @@ def cards():
          ["AI repository assistant - embeds repo files and answers",
           "questions with context-aware chat + visual file explorer."],
          "⚡ Up to 80% faster repo analysis",
-         ["Next.js", "Node.js", "MongoDB", "Tailwind", "Shadcn UI"], INDIGO, CYAN, "R")
+         ["Next.js", "Node.js", "MongoDB", "Tailwind", "Shadcn UI"], PRIMARY, SKY, "R")
     card("innerbalance", "InnerBalance", None,
          ["Mental-wellness mobile app - mood tracking, journaling,",
           "guided assessments and a chatbot for personal insights."],
          "⚡ 35% higher engagement in testing",
-         ["Flutter", "Firebase", "SQL", "Chatbot"], CYAN, GREEN, "I")
+         ["Flutter", "Firebase", "SQL", "Chatbot"], SKY, GREEN, "I")
     card("rbac", "RBAC Backend", "BACKEND",
          ["Production-grade role-based access control API -",
           "roles, permissions and protected routes done right."],
-         None, ["TypeScript", "Auth", "RBAC", "REST API"], PINK, INDIGO, "A")
+         None, ["TypeScript", "Auth", "RBAC", "REST API"], AMBER, PRIMARY, "A")
     card("visitlume", "VisitLume AI", "PRIVATE",
          ["AI-powered visitor intelligence for small businesses -",
           "lead capture, next-best-actions, revenue attribution."],
-         None, ["AI", "Analytics", "Full Stack", "Attribution"], "#a78bfa", PINK, "V")
+         None, ["AI", "Analytics", "Full Stack", "Attribution"], "#fb923c", AMBER, "V")
     card("simpliadmission", "SimpliAdmission", None,
          ["Engineering college admission guide - colleges, details",
           "and contact info in one place, with less stress."],
-         None, ["Guide App", "Colleges", "Contacts"], "#fbbf24", PINK, "S")
+         None, ["Guide App", "Colleges", "Contacts"], "#fbbf24", AMBER, "S")
     card("videostreaming", "Video Streaming Backend", "BACKEND",
          ["Backend for a video streaming platform -",
           "uploads, auth and content APIs."],
-         None, ["JavaScript", "Node.js", "REST API"], INDIGO, PINK, "V")
+         None, ["JavaScript", "Node.js", "REST API"], PRIMARY, AMBER, "V")
     card("dishdelight", "DishDelight", None,
          ["Recipe app with browsable categories",
           "and community ratings."],
-         None, ["Flutter", "Dart", "Mobile"], GREEN, CYAN, "D")
+         None, ["Flutter", "Dart", "Mobile"], GREEN, SKY, "D")
 
 
 # ------------------------------------------------------------------ about card
 def about():
     W, H = 1200, 270
     rows = [
-        ("ROLE", "Full Stack Engineer @ Lauren Information Technologies", INDIGO),
-        ("EXPERIENCE", "2+ years · 5+ enterprise apps for Indian & US clients", CYAN),
-        ("FOCUS", "Frontend architecture · Full-stack products · AI-powered apps", PINK),
-        ("STACK", "React · Next.js · TypeScript · Node.js · MongoDB · SQL · AWS", INDIGO),
+        ("ROLE", "Full Stack Engineer @ Lauren Information Technologies", PRIMARY),
+        ("EXPERIENCE", "2+ years · 5+ enterprise apps for Indian & US clients", SKY),
+        ("FOCUS", "Frontend architecture · Full-stack products · AI-powered apps", AMBER),
+        ("STACK", "React · Next.js · TypeScript · Node.js · MongoDB · SQL · AWS", PRIMARY),
         ("CERTIFIED", "AWS Certified Solutions Architect - Associate", GREEN),
-        ("DSA", "500+ problems solved (TakeUForward + LeetCode)", CYAN),
-        ("EDUCATION", "B.E. Computer Engineering · CGPA 8.93", PINK),
+        ("DSA", "500+ problems solved (TakeUForward + LeetCode)", SKY),
+        ("EDUCATION", "B.E. Computer Engineering · CGPA 8.93", AMBER),
         ("LOOKING FOR", "SDE / Frontend / Full Stack roles with end-to-end ownership", GREEN),
     ]
     out = []
@@ -276,10 +276,10 @@ def about():
             f'<text x="{x+18}" y="{y+13}" font-family="{MONO}" font-size="11" font-weight="700" letter-spacing="1.8" fill="{col}">{k}</text>'
             f'<text x="{x+18}" y="{y+32}" font-family="{SANS}" font-size="15" fill="{TEXT}">{escape(v)}</text></g>'
         )
-    w(f"{OUT}/about.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="About Prathmesh Parab">
+    w(f"{OUT}/about-me.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="About Prathmesh Parab">
 <style>@keyframes up{{from{{opacity:0;transform:translateY(8px)}}to{{opacity:1;transform:none}}}}.rv{{animation:up .7s ease-out both}}
 @keyframes run{{to{{stroke-dashoffset:-2800}}}}.run{{stroke-dasharray:240 2560;animation:run 10s linear infinite}}{REDUCED}</style>
-<defs><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{INDIGO}"/><stop offset=".5" stop-color="{CYAN}"/><stop offset="1" stop-color="{PINK}"/></linearGradient>
+<defs><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{PRIMARY}"/><stop offset=".5" stop-color="{SKY}"/><stop offset="1" stop-color="{AMBER}"/></linearGradient>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{BG0}"/><stop offset="1" stop-color="{BG1}"/></linearGradient></defs>
 <rect x="2" y="2" width="{W-4}" height="{H-4}" rx="22" fill="url(#bg)" stroke="{LINE}" stroke-width="1.5"/>
 <rect class="run" x="2" y="2" width="{W-4}" height="{H-4}" rx="22" fill="none" stroke="url(#bd)" stroke-width="2.5" stroke-linecap="round"/>
@@ -291,9 +291,9 @@ def about():
 def impact():
     W, H = 1200, 170
     tiles = [
-        ("85%", "less manual operations", "Role-based financial automation", "platform · Next.js, TypeScript", INDIGO),
-        ("40%", "faster onboarding", "Project onboarding & approval", "tool for internal teams", CYAN),
-        ("30%", "better response & accuracy", "Flutter field app · Google Maps,", "offline sync, text-to-speech", PINK),
+        ("85%", "less manual operations", "Role-based financial automation", "platform · Next.js, TypeScript", PRIMARY),
+        ("40%", "faster onboarding", "Project onboarding & approval", "tool for internal teams", SKY),
+        ("30%", "better response & accuracy", "Flutter field app · Google Maps,", "offline sync, text-to-speech", AMBER),
         ("US", "large-scale platform", "Sprint features for a US transport", "platform · performance, a11y", GREEN),
     ]
     tw = (W - 48 - 3 * 16) / 4
@@ -301,7 +301,7 @@ def impact():
     for i, (big, lab, l1, l2, col) in enumerate(tiles):
         x = 24 + i * (tw + 16)
         out.append(
-            f'<rect x="{x:.0f}" y="20" width="{tw:.0f}" height="130" rx="16" fill="#0d1117" stroke="{col}55"/>'
+            f'<rect x="{x:.0f}" y="20" width="{tw:.0f}" height="130" rx="16" fill="#1c1917" stroke="{col}55"/>'
             f'<rect x="{x:.0f}" y="20" width="{tw:.0f}" height="130" rx="16" fill="{col}12"/>'
             f'<text x="{x+22:.0f}" y="72" font-family="{SANS}" font-size="38" font-weight="800" fill="{col}">{big}</text>'
             f'<text x="{x+22:.0f}" y="96" font-family="{SANS}" font-size="14" font-weight="700" fill="{TEXT}">{escape(lab)}</text>'
@@ -318,8 +318,8 @@ def divider():
     W = 1200
     w(f"{OUT}/divider.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} 24" width="{W}" height="24" role="img" aria-label="divider">
 <style>@keyframes mv{{from{{transform:translateX(-300px)}}to{{transform:translateX({W+300}px)}}}}.m{{animation:mv 4s ease-in-out infinite}}{REDUCED}</style>
-<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="{INDIGO}" stop-opacity="0"/><stop offset=".2" stop-color="{INDIGO}"/><stop offset=".5" stop-color="{CYAN}"/><stop offset=".8" stop-color="{PINK}"/><stop offset="1" stop-color="{PINK}" stop-opacity="0"/></linearGradient>
-<radialGradient id="g"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset=".4" stop-color="{CYAN}" stop-opacity=".6"/><stop offset="1" stop-color="{CYAN}" stop-opacity="0"/></radialGradient></defs>
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="{PRIMARY}" stop-opacity="0"/><stop offset=".2" stop-color="{PRIMARY}"/><stop offset=".5" stop-color="{SKY}"/><stop offset=".8" stop-color="{AMBER}"/><stop offset="1" stop-color="{AMBER}" stop-opacity="0"/></linearGradient>
+<radialGradient id="g"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset=".4" stop-color="{SKY}" stop-opacity=".6"/><stop offset="1" stop-color="{SKY}" stop-opacity="0"/></radialGradient></defs>
 <rect x="0" y="11" width="{W}" height="2" rx="1" fill="url(#l)" opacity=".7"/>
 <ellipse class="m" cx="0" cy="12" rx="120" ry="6" fill="url(#g)"/>
 </svg>''')
@@ -338,7 +338,7 @@ def footer():
 <style>@keyframes s1{{to{{transform:translateX(-600px)}}}}@keyframes s2{{to{{transform:translateX(-600px)}}}}
 .w1{{animation:s1 9s linear infinite}}.w2{{animation:s2 14s linear infinite}}.w3{{animation:s1 20s linear infinite}}
 @keyframes up{{from{{opacity:0;transform:translateY(10px)}}to{{opacity:1;transform:translateY(0)}}}}.t{{animation:up 1.2s ease-out both}}{REDUCED}</style>
-<defs><linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="{INDIGO}"/><stop offset=".5" stop-color="{CYAN}"/><stop offset="1" stop-color="{PINK}"/></linearGradient>
+<defs><linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="{PRIMARY}"/><stop offset=".5" stop-color="{SKY}"/><stop offset="1" stop-color="{AMBER}"/></linearGradient>
 <clipPath id="c"><rect width="{W}" height="{H}" rx="26"/></clipPath></defs>
 <g clip-path="url(#c)">
 <path class="w3" d="{wave(18, 96, 1)}" fill="url(#a)" opacity=".18"/>

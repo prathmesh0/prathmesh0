@@ -14,12 +14,12 @@
 @media (prefers-reduced-motion: reduce){*{animation:none!important}.cover,.cur{display:none}.rv{opacity:1!important}}
 </style>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#141a3a"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1917"/><stop offset="1" stop-color="#292524"/></linearGradient>
   <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="640" y2="0" spreadMethod="reflect">
-    <stop offset="0" stop-color="#7c9cff"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/>
+    <stop offset="0" stop-color="#f97316"/><stop offset=".5" stop-color="#0ea5e9"/><stop offset="1" stop-color="#eab308"/>
     <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1280 0" dur="8s" repeatCount="indefinite"/>
   </linearGradient>
-  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#7c9cff"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#f97316"/><stop offset=".5" stop-color="#0ea5e9"/><stop offset="1" stop-color="#eab308"/></linearGradient>
   <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
   <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
   <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#fff" opacity=".07"/></pattern>
@@ -28,31 +28,31 @@
 <g clip-path="url(#card)">
   <rect width="1200" height="400" fill="url(#bg)"/>
   <g filter="url(#blur)" opacity=".55">
-    <circle class="b1" cx="180" cy="90" r="150" fill="#7c9cff"/>
-    <circle class="b2" cx="980" cy="320" r="170" fill="#f472b6" opacity=".7"/>
-    <circle class="b3" cx="620" cy="40" r="120" fill="#22d3ee" opacity=".6"/>
+    <circle class="b1" cx="180" cy="90" r="150" fill="#f97316"/>
+    <circle class="b2" cx="980" cy="320" r="170" fill="#eab308" opacity=".7"/>
+    <circle class="b3" cx="620" cy="40" r="120" fill="#0ea5e9" opacity=".6"/>
   </g>
   <rect width="1200" height="400" fill="url(#dots)"/>
   <rect class="scan" x="0" y="0" width="260" height="400" fill="url(#sheen)" transform="skewX(-18)"/>
 
-  <text class="u1" x="66" y="110" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" letter-spacing="4" fill="#22d3ee">HELLO, WORLD - I'M</text>
-  <text class="u2" x="62" y="180" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="70" font-weight="800" letter-spacing="-1" fill="url(#name)">Prathmesh Parab</text>
-  <g class="u3"><text class="r0" x="66" y="236" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#e6edf3">Full Stack Engineer</text><text class="r1" x="66" y="236" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#e6edf3">React · Next.js · TypeScript</text><text class="r2" x="66" y="236" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#e6edf3">Node.js · MongoDB · AWS</text><text class="r3" x="66" y="236" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#e6edf3">Building AI-powered products</text></g>
+  <text class="u1" x="66" y="110" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" letter-spacing="4" fill="#0ea5e9">HELLO, WORLD - I'M</text>
+  <text class="u2" x="62" y="180" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="70" font-weight="800" letter-spacing="-1" fill="url(#name)">Prathmesh Parab</text>
+  <g class="u3"><text class="r0" x="66" y="236" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#f5f5f4">Full Stack Engineer</text><text class="r1" x="66" y="236" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#f5f5f4">React · Next.js · TypeScript</text><text class="r2" x="66" y="236" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#f5f5f4">Node.js · MongoDB · AWS</text><text class="r3" x="66" y="236" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#f5f5f4">Building AI-powered products</text></g>
   <g class="u4">
-    <text x="66" y="282" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#8b949e">Mumbai, India  ·  2+ yrs experience  ·  AWS Certified SA - Associate</text>
+    <text x="66" y="282" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#a8a29e">Mumbai, India  ·  2+ yrs experience  ·  AWS Certified SA - Associate</text>
     <rect x="66" y="308" width="292" height="38" rx="19" fill="#3fb95018" stroke="#3fb95066"/>
     <circle class="ring" cx="88" cy="327" r="5" fill="none" stroke="#3fb950" stroke-width="2"/>
     <circle cx="88" cy="327" r="5" fill="#3fb950"/>
-    <text x="104" y="333" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#7ee787">Open to SDE / Full Stack roles</text>
+    <text x="104" y="333" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#7ee787">Open to SDE / Full Stack roles</text>
   </g>
 
   <g class="fl">
-    <rect x="690" y="52" width="470" height="296" rx="16" fill="#0d1117" stroke="#30363d"/>
+    <rect x="690" y="52" width="470" height="296" rx="16" fill="#1c1917" stroke="#44403c"/>
     <rect x="690" y="52" width="470" height="296" rx="16" fill="none" stroke="url(#edge)" stroke-opacity=".55"/>
     <circle cx="714" cy="76" r="6" fill="#ff5f57"/><circle cx="734" cy="76" r="6" fill="#febc2e"/><circle cx="754" cy="76" r="6" fill="#28c840"/>
-    <text x="925.0" y="81" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">~/prathmesh - zsh</text>
-    <line x1="690" y1="98" x2="1160" y2="98" stroke="#30363d"/>
-    <g class="term"><text class="rv p0" x="714" y="128" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f472b6">❯</text><text x="734" y="128" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e6edf3">whoami</text><rect class="cover c0" x="732" y="112" width="76" height="22" fill="#0d1117"/><text class="rv o1" x="734" y="158" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e6edf3">prathmesh-parab · full-stack engineer</text><text class="rv p2" x="714" y="188" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f472b6">❯</text><text x="734" y="188" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e6edf3">cat focus.txt</text><rect class="cover c2" x="732" y="172" width="139" height="22" fill="#0d1117"/><text class="rv o3" x="734" y="218" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#22d3ee">React · Next.js · TypeScript · Node.js</text><text class="rv o4" x="734" y="248" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#22d3ee">AI-powered apps · REST APIs · AWS</text><text class="rv p5" x="714" y="278" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f472b6">❯</text><text x="734" y="278" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e6edf3">git status</text><rect class="cover c5" x="732" y="262" width="112" height="22" fill="#0d1117"/><text class="rv o6" x="734" y="308" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#3fb950">✓ open to SDE / Full Stack roles</text><g class="rv pl"><text x="714" y="338" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f472b6">❯</text><rect class="cur" x="734" y="324" width="9" height="18" rx="1" fill="#22d3ee"/></g></g>
+    <text x="925.0" y="81" text-anchor="middle" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#a8a29e">~/prathmesh - zsh</text>
+    <line x1="690" y1="98" x2="1160" y2="98" stroke="#44403c"/>
+    <g class="term"><text class="rv p0" x="714" y="128" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#eab308">❯</text><text x="734" y="128" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f5f5f4">whoami</text><rect class="cover c0" x="732" y="112" width="76" height="22" fill="#1c1917"/><text class="rv o1" x="734" y="158" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f5f5f4">prathmesh-parab · full-stack engineer</text><text class="rv p2" x="714" y="188" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#eab308">❯</text><text x="734" y="188" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f5f5f4">cat focus.txt</text><rect class="cover c2" x="732" y="172" width="139" height="22" fill="#1c1917"/><text class="rv o3" x="734" y="218" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#0ea5e9">React · Next.js · TypeScript · Node.js</text><text class="rv o4" x="734" y="248" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#0ea5e9">AI-powered apps · REST APIs · AWS</text><text class="rv p5" x="714" y="278" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#eab308">❯</text><text x="734" y="278" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#f5f5f4">git status</text><rect class="cover c5" x="732" y="262" width="112" height="22" fill="#1c1917"/><text class="rv o6" x="734" y="308" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#3fb950">✓ open to SDE / Full Stack roles</text><g class="rv pl"><text x="714" y="338" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#eab308">❯</text><rect class="cur" x="734" y="324" width="9" height="18" rx="1" fill="#0ea5e9"/></g></g>
   </g>
 </g>
 </svg>

@@ -8,10 +8,10 @@
 @media (prefers-reduced-motion: reduce){*{animation:none!important}.cover,.cur{display:none}.rv{opacity:1!important}}
 </style>
 <defs>
-  <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f472b6"/><stop offset="1" stop-color="#7c9cff"/></linearGradient>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#111733"/></linearGradient>
+  <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eab308"/><stop offset="1" stop-color="#f97316"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1917"/><stop offset="1" stop-color="#292524"/></linearGradient>
   <linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
-  <radialGradient id="halo" cx=".9" cy="0" r=".9"><stop offset="0" stop-color="#f472b6" stop-opacity=".35"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+  <radialGradient id="halo" cx=".9" cy="0" r=".9"><stop offset="0" stop-color="#eab308" stop-opacity=".35"/><stop offset="1" stop-color="#eab308" stop-opacity="0"/></radialGradient>
   <clipPath id="c"><rect x="2" y="2" width="576" height="216" rx="18"/></clipPath>
 </defs>
 <g clip-path="url(#c)">
@@ -19,13 +19,13 @@
   <rect class="gl" width="580" height="220" fill="url(#halo)"/>
   <rect class="sw" x="0" y="0" width="140" height="220" fill="url(#sh)" transform="skewX(-20)"/>
 </g>
-<rect x="2" y="2" width="576" height="216" rx="18" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<rect x="2" y="2" width="576" height="216" rx="18" fill="none" stroke="#44403c" stroke-width="1.5"/>
 <rect class="run" x="2" y="2" width="576" height="216" rx="18" fill="none" stroke="url(#bd)" stroke-width="2.5" stroke-linecap="round"/>
 <rect x="28" y="28" width="38" height="38" rx="10" fill="url(#bd)"/>
-<text x="47" y="54" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="18" font-weight="800" fill="#0b1020">A</text>
-<text x="80" y="55" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="24" font-weight="800" fill="#e6edf3">RBAC Backend</text>
-<rect x="474" y="32" width="78" height="26" rx="13" fill="#f472b614" stroke="#f472b655"/><text x="513" y="50" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#f472b6">BACKEND</text>
-<text x="32" y="100" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" fill="#c9d1d9">Production-grade role-based access control API -</text><text x="32" y="122" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" fill="#c9d1d9">roles, permissions and protected routes done right.</text>
+<text x="47" y="54" text-anchor="middle" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="18" font-weight="800" fill="#1c1917">A</text>
+<text x="80" y="55" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="24" font-weight="800" fill="#f5f5f4">RBAC Backend</text>
+<rect x="474" y="32" width="78" height="26" rx="13" fill="#eab30814" stroke="#eab30855"/><text x="513" y="50" text-anchor="middle" font-family="'Fira Code',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#eab308">BACKEND</text>
+<text x="32" y="100" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" fill="#d6d3d1">Production-grade role-based access control API -</text><text x="32" y="122" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" fill="#d6d3d1">roles, permissions and protected routes done right.</text>
 
-<rect x="32" y="170" width="98" height="26" rx="13" fill="#f472b61a" stroke="#f472b655"/><text x="81" y="187.5" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#f472b6">TypeScript</text><rect x="138.0" y="170" width="54" height="26" rx="13" fill="#f472b61a" stroke="#f472b655"/><text x="165" y="187.5" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#f472b6">Auth</text><rect x="199.6" y="170" width="54" height="26" rx="13" fill="#f472b61a" stroke="#f472b655"/><text x="226" y="187.5" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#f472b6">RBAC</text><rect x="261.2" y="170" width="83" height="26" rx="13" fill="#f472b61a" stroke="#f472b655"/><text x="303" y="187.5" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#f472b6">REST API</text>
+<rect x="32" y="170" width="98" height="26" rx="13" fill="#eab3081a" stroke="#eab30855"/><text x="81" y="187.5" text-anchor="middle" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#eab308">TypeScript</text><rect x="138.0" y="170" width="54" height="26" rx="13" fill="#eab3081a" stroke="#eab30855"/><text x="165" y="187.5" text-anchor="middle" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#eab308">Auth</text><rect x="199.6" y="170" width="54" height="26" rx="13" fill="#eab3081a" stroke="#eab30855"/><text x="226" y="187.5" text-anchor="middle" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#eab308">RBAC</text><rect x="261.2" y="170" width="83" height="26" rx="13" fill="#eab3081a" stroke="#eab30855"/><text x="303" y="187.5" text-anchor="middle" font-family="Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#eab308">REST API</text>
 </svg>

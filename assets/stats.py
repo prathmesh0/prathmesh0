@@ -7,11 +7,11 @@ from xml.sax.saxutils import escape
 
 USER = sys.argv[1] if len(sys.argv) > 1 else "prathmesh0"
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "profile")
-SANS = "'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif"
-INDIGO, CYAN, PINK, GREEN = "#7c9cff", "#22d3ee", "#f472b6", "#3fb950"
-TEXT, MUTED = "#e6edf3", "#8b949e"
-LEVELS = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
-LANG_COL = [INDIGO, CYAN, PINK, "#a78bfa", "#fbbf24", GREEN, "#fb923c", MUTED]
+SANS = "Oxanium,'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif"
+PRIMARY, SKY, AMBER, GREEN = "#f97316", "#0ea5e9", "#eab308", "#3fb950"
+TEXT, MUTED = "#f5f5f4", "#a8a29e"
+LEVELS = ["#292524", "#7c2d12", "#c2410c", "#f97316", "#fdba74"]
+LANG_COL = [PRIMARY, SKY, AMBER, "#fb923c", "#fbbf24", GREEN, "#fb923c", MUTED]
 
 
 def get(url):
@@ -53,9 +53,9 @@ lt = sum(n for _, n in langs) or 1
 # ---- svg
 W, H = 1200, 400
 tiles = [
-    ("CONTRIBUTIONS", f"{total:,}", "in the last year", INDIGO),
-    ("CURRENT STREAK", f"{cur}", "days" if cur != 1 else "day", PINK),
-    ("LONGEST STREAK", f"{longest}", "days · last year", CYAN),
+    ("CONTRIBUTIONS", f"{total:,}", "in the last year", PRIMARY),
+    ("CURRENT STREAK", f"{cur}", "days" if cur != 1 else "day", AMBER),
+    ("LONGEST STREAK", f"{longest}", "days · last year", SKY),
     ("PUBLIC REPOS", f"{prof['public_repos']}", f"{stars} stars · {prof['followers']} followers", GREEN),
 ]
 tw = (W - 48 - 3 * 16) / 4
@@ -63,7 +63,7 @@ o = []
 for k, (lab, val, sub, col) in enumerate(tiles):
     x = 24 + k * (tw + 16)
     o.append(
-        f'<g><rect x="{x:.0f}" y="24" width="{tw:.0f}" height="104" rx="16" fill="#0d1117" stroke="{col}55"/>'
+        f'<g><rect x="{x:.0f}" y="24" width="{tw:.0f}" height="104" rx="16" fill="#1c1917" stroke="{col}55"/>'
         f'<rect x="{x:.0f}" y="24" width="{tw:.0f}" height="104" rx="16" fill="{col}12"/>'
         f'<text x="{x+22:.0f}" y="52" font-size="12" font-weight="700" letter-spacing="1.6" fill="{MUTED}">{lab}</text>'
         f'<text x="{x+22:.0f}" y="96" font-size="40" font-weight="800" fill="{col}">{val}</text>'
@@ -96,8 +96,8 @@ for k, (name, n) in enumerate(langs):
     cx += len(name) * 8 + 70
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="GitHub stats for {USER}: {total} contributions, {cur} day current streak, {longest} day longest streak">
 <style>text{{font-family:{SANS}}}@keyframes up{{from{{opacity:0;transform:translateY(8px)}}to{{opacity:1;transform:none}}}}.t{{animation:up .7s ease-out both}}@media (prefers-reduced-motion: reduce){{*{{animation:none!important}}}}</style>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#141a3a"/></linearGradient></defs>
-<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="22" fill="url(#bg)" stroke="#30363d"/>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1917"/><stop offset="1" stop-color="#292524"/></linearGradient></defs>
+<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="22" fill="url(#bg)" stroke="#44403c"/>
 {''.join(o)}
 </svg>'''
 os.makedirs(OUT, exist_ok=True)
