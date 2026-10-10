@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://prathmesh-parab-portfolio.vercel.app">
-  <img src="./assets/hero.svg" width="100%" alt="Prathmesh Parab — Full Stack Engineer · React, Next.js, TypeScript, Node.js, AWS" />
+  <img src="./assets/hero.svg" width="100%" alt="Prathmesh Parab - Full Stack Engineer · React, Next.js, TypeScript, Node.js, AWS" />
 </a>
 
 <br/>
@@ -27,20 +27,15 @@
 
 <br/>
 
-<table>
-<tr>
-<td align="center" width="25%"><h2>85%</h2><b>less manual ops</b><br/><sub>Role-based financial automation platform<br/>Next.js · TypeScript · Shadcn UI</sub></td>
-<td align="center" width="25%"><h2>40%</h2><b>faster onboarding</b><br/><sub>Project onboarding &amp; approval tool</sub></td>
-<td align="center" width="25%"><h2>30%</h2><b>better response</b><br/><sub>Flutter field app · Google Maps,<br/>offline sync, text-to-speech</sub></td>
-<td align="center" width="25%"><h2>🇺🇸</h2><b>US-scale platform</b><br/><sub>Sprint features for a large transportation platform · performance &amp; accessibility</sub></td>
-</tr>
-</table>
+<div align="center">
+<img src="./assets/impact.svg" width="100%" alt="Impact at work: 85% less manual operations, 40% faster onboarding, 30% better response, US-scale platform"/>
+</div>
 
 **Right now**
 
-- 🔨 Building **VisitLume AI** — AI-powered visitor intelligence: behaviour analytics, lead capture and revenue attribution
+- 🔨 Building **VisitLume AI** - AI-powered visitor intelligence: behaviour analytics, lead capture and revenue attribution
 - 📚 Going deeper on **Redis, auth/RBAC and backend architecture**
-- 🤝 **Open to SDE / Full Stack roles** — referrals and chats welcome
+- 🤝 **Open to SDE / Full Stack roles** - referrals and chats welcome
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
@@ -65,17 +60,13 @@
 
 <div align="center">
 
-<a href="https://github.com/prathmesh0/repolens-frontend"><img src="./assets/projects/repolens.svg" width="49%" alt="RepoLens — AI repository assistant"/></a>
-<img src="./assets/projects/innerbalance.svg" width="49%" alt="InnerBalance — mental wellness app"/>
-<a href="https://github.com/prathmesh0/rbac-be"><img src="./assets/projects/rbac.svg" width="49%" alt="RBAC Backend — role-based access control API"/></a>
-<a href="https://github.com/prathmesh0/visitlume"><img src="./assets/projects/visitlume.svg" width="49%" alt="VisitLume AI — AI-powered website visitor intelligence"/></a>
-<a href="https://github.com/prathmesh0/SimpliAdmission"><img src="./assets/projects/simpliadmission.svg" width="49%" alt="SimpliAdmission — admission management"/></a>
+<a href="https://github.com/prathmesh0/repolens-frontend"><img src="./assets/projects/repolens.svg" width="49%" alt="RepoLens - AI repository assistant"/></a>
+<img src="./assets/projects/innerbalance.svg" width="49%" alt="InnerBalance - mental wellness app"/>
+<a href="https://github.com/prathmesh0/rbac-be"><img src="./assets/projects/rbac.svg" width="49%" alt="RBAC Backend - role-based access control API"/></a>
+<a href="https://github.com/prathmesh0/visitlume"><img src="./assets/projects/visitlume.svg" width="49%" alt="VisitLume AI - AI-powered website visitor intelligence"/></a>
+<a href="https://github.com/prathmesh0/SimpliAdmission"><img src="./assets/projects/simpliadmission.svg" width="49%" alt="SimpliAdmission - admission management"/></a>
 <a href="https://github.com/prathmesh0/video-streaming-backend"><img src="./assets/projects/videostreaming.svg" width="49%" alt="Video Streaming Backend"/></a>
-<a href="https://github.com/prathmesh0/DishDelight"><img src="./assets/projects/dishdelight.svg" width="49%" alt="DishDelight — Flutter recipe app"/></a>
-
-<sub>
-🔗 Live: <a href="https://repolens-frontend.vercel.app">RepoLens</a> · 🔒 VisitLume is private
-</sub>
+<a href="https://github.com/prathmesh0/DishDelight"><img src="./assets/projects/dishdelight.svg" width="49%" alt="DishDelight - Flutter recipe app"/></a>
 
 </div>
 
@@ -93,8 +84,8 @@
 
 <div align="center">
 
-<b>🏆 Highlights</b> &nbsp;·&nbsp; AWS Certified Solutions Architect – Associate &nbsp;·&nbsp; Best Project Award, Projectathon 2.0 &nbsp;·&nbsp; 500+ DSA problems
+<b>🏆 Highlights</b> &nbsp;·&nbsp; AWS Certified Solutions Architect - Associate &nbsp;·&nbsp; Best Project Award, Projectathon 2.0 &nbsp;·&nbsp; 500+ DSA problems
 
-<img src="./assets/footer.svg" width="100%" alt="Thanks for stopping by — let's build something great."/>
+<img src="./assets/footer.svg" width="100%" alt="Thanks for stopping by - let's build something great."/>
 
 </div>
